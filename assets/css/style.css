@@ -378,6 +378,13 @@ section {
   margin-bottom: 0;
 }
 
+/* Nouvelle règle pour réduire la taille de l'image */
+.about .content img {
+  width: 10%; /* Ajustez ce pourcentage selon vos besoins */
+  max-width: 50px; /* Limitez la taille maximale de l'image */
+  height: auto; /* Conserver le ratio d'aspect de l'image */
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
